@@ -1,5 +1,4 @@
 # Come misurare una tensione con Arduino !!!!
-Software di controllo Ventole di un PC e di conrollo LED A-RGB 5V.
 
 ## Schema
 
