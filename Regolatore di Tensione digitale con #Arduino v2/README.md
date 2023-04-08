@@ -1,5 +1,11 @@
-# I2C Scanner 8 Bit
+# Regolatore di Tensione digitale con #Arduino v2
 
 ## Schema
 
-![screenshot](https://user-images.githubusercontent.com/76437833/228883843-2aa528c4-c59b-4928-9b0d-679024b9b753.jpg)
+![Schematic_Arduino DC-DC Converter_2023-04-08](https://user-images.githubusercontent.com/76437833/230718551-45a2297a-7723-4dc6-a833-5fcc91062933.png)
+
+## 
+![L293D Out](https://user-images.githubusercontent.com/76437833/230718566-e528e34e-298e-4ad0-b8e4-59329ae38f34.jpg)
+
+##
+
