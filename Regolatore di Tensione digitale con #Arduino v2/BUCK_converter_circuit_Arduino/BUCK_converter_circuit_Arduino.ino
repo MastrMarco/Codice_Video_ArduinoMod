@@ -12,7 +12,7 @@ int DelayVirtuale = 1000;
 // Lettura Tensione di Uscita
 #define Analog_Volt_OUT A0
 int datiS;
-int Conpionamento = 1;
+int Campionamento = 1;
 int CampNum;
 float Con;
 float R1 = 30000;  //
@@ -60,11 +60,11 @@ void setup() {
 float Tensione() {
   if (millis() >= (TempoVal + DelayVirtuale2)) {
     // leggere il valore sull'ingresso analogico
-    if (CampNum < Conpionamento) {
+    if (CampNum < Campionamento) {
       datiS += analogRead(Analog_Volt_OUT);
       CampNum++;
     } else {
-      Con = ((datiS / Conpionamento) * 5.0) / 1024;
+      Con = ((datiS / Campionamento) * 5.0) / 1024;
       Volt = Con / (R2 / (R1 + R2));
       datiS = 0;
       CampNum = 0;
@@ -102,10 +102,10 @@ void loop() {
 
   if (((Volt_Set - Tensione()) >= 0.35) or ((Tensione() - Volt_Set) >= 0.35)) {
     DelayVirtuale2 = 5;
-    Conpionamento = 1;
+    Campionamento = 1;
   } else {
     DelayVirtuale2 = 200;
-    Conpionamento = 10;
+    Campionamento = 10;
   }
   Tensione();
 
@@ -126,7 +126,7 @@ void loop() {
     Serial.print(Val_PWM);
     Serial.println(" PWM");
 
-    Serial.print(Conpionamento);
-    Serial.println(" Conpionamento");
+    Serial.print(Campionamento);
+    Serial.println(" Campionamento");
   }
 }

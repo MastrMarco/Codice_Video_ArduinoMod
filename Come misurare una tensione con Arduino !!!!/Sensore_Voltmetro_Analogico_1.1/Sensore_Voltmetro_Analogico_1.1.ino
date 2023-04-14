@@ -6,7 +6,7 @@
 
 #define analogInput A0  //PIN Analogico dove è collegato il punto centrale del partitore resistivo
 int datiS;
-int Conpionamento = 30;  // Numero di Campionamenti per fare una Media
+int Campionamento = 30;  // Numero di Campionamenti per fare una Media
 int CampNum;
 float Con;
 float R1 = 30000;  // Inserire il valore del Resistore R1 indicato nello Schema
@@ -41,13 +41,13 @@ void loop() {
 
   // Delay Conversione
   if (millis() >= (TempoVal + DelayVirtuale2)) {
-    if (CampNum < Conpionamento) {
+    if (CampNum < Campionamento) {
       // leggere il valore sull'ingresso analogico
       datiS += analogRead(analogInput);
       CampNum++;
     } else {
       // Conversione Dati analogici
-      Con = ((datiS / Conpionamento) * 5.0) / 1024;
+      Con = ((datiS / Campionamento) * 5.0) / 1024;
       Volt = Con / (R2 / (R1 + R2));
       datiS = 0;
       CampNum = 0;
