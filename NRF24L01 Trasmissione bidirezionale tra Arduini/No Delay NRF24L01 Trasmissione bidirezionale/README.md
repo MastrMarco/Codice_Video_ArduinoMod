@@ -1,4 +1,4 @@
-# Trasmissione-bidirezionale-tra-Arduini---nRF24L01-CON-delay
+# Trasmissione-bidirezionale-tra-Arduini---nRF24L01-NO-delay
 
 ## Schema
 ![NRF_Standard_Circuito](https://user-images.githubusercontent.com/76437833/232232502-3b003d06-c34b-4c30-ad56-1c2a33ccbda6.png)
