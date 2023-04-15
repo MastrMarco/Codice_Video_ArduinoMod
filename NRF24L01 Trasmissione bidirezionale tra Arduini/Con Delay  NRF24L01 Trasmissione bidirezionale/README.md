@@ -1,0 +1,1 @@
+# Trasmissione-bidirezionale-tra-Arduini---nRF24L01-NO-delay
