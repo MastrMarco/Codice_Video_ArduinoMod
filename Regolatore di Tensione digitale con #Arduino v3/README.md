@@ -1,11 +1,9 @@
-# Regolatore di Tensione digitale con #Arduino v2
+# Regolatore di Tensione digitale con #Arduino v3
 
 ## Schema
+![Schema](https://user-images.githubusercontent.com/76437833/232841566-e6779490-adc0-44c0-8385-efdb3755d3cc.png)
 
-![Schematic_Arduino DC-DC Converter_2023-04-08](https://user-images.githubusercontent.com/76437833/230718551-45a2297a-7723-4dc6-a833-5fcc91062933.png)
-
-## 
-![L293D Out](https://user-images.githubusercontent.com/76437833/230718566-e528e34e-298e-4ad0-b8e4-59329ae38f34.jpg)
-
+## ES
+![MP2307DN](https://user-images.githubusercontent.com/76437833/232841636-2960942f-25d1-4068-a451-6d550a498854.jpg)
 ##
 
