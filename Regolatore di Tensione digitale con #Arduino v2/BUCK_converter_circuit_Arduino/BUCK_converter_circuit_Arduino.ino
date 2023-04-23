@@ -64,7 +64,7 @@ float Tensione() {
       datiS += analogRead(Analog_Volt_OUT);
       CampNum++;
     } else {
-      Con = ((datiS / Campionamento) * 5.0) / 1024;
+      Con = ((datiS / (Campionamento + 1)) * 5.0) / 1024;
       Volt = Con / (R2 / (R1 + R2));
       datiS = 0;
       CampNum = 0;
