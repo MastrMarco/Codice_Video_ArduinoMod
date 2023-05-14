@@ -1,0 +1,466 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GUI_Arduino
+</name>
+</assembly>
+<members>
+<member name="T:GUI_Arduino.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources._273043772004201_2">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Biciclick">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.clicxg">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Fan_Arancione">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Fan_Azzuro">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Fan_Bianco">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Fan_Blue">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Fan_Giallo">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Fan_Green">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Fan_Nero">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Fan_Red">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Fan_RGB">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Fan_Viola">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.FinestraFanColor">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.FinestraFanColor1">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.FinestraFanIcona">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.FinestraFanN">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.FinestraGUI_HUB_2_0v">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.FinestraGUI_Multimetro">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.FinestraGUI_Multimetro1">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.GiuClickg">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.GUI_Audio_V1_0_RT4">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.GUI_Audio_V1_1_RT5">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.GUI_Audio_V11">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Home2_5">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Home2_6">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Home2_6_1">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Home21">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.HomeAggornamento">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.HomeDebug">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.HomeDebugV1_0">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Icon">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Icon2">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Icon2_1">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Icon21">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Icona_AudioMax">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Icona_AudioMin">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Icona_YoutubeBMP">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaAudioMax">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaHubStruments">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaHubStruments1">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaSpeedFanMax">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaSpeedFanMin">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaUSB_OFF_1_0_0_gif">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaUSB_OFF_1_0_1">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaUSB_ON_1_0_1">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaUSB_ON_1_0_2">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaUSB_ON_1_0_3">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaUSB_ON_1_01">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaUSB_RIC_1_0_0">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaUSBconnessioneAnimata">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconaUSBDisconnessioneAnimata">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconCondensatore">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconOmetro">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.IconVoltmetroo">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Indietro">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.InfoClick">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.InfoClick_2_0">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.InfoClick_2_1">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.InfoGUI">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.InfoGUI_1_1">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.InfoGUI_1_2">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.kk">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.LOFF_1">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Logo_Arduino_Nano___icona_Mus">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Luminositàico2">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Luminositàico21">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Luminositàico22">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Luminositàico5">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Luminositàico51">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.MultIxon">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.musclk">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.OFF_USBDis">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.OFFF">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.OFFUSB">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.OFFUSBick">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.OnMus">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.ONUSB">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.ONUSB1">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.PaginaAudioRT3">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.RGB">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.RGBFan">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Ricarica2">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Ricaricaoff">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.Sund2_0">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.TLa">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.USBard">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GUI_Arduino.My.Resources.Resources.xx">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
