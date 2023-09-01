@@ -1,4 +1,4 @@
-# OledDisplay I2C come configurarlo con la librerie MicroLCD
+# OledDisplay I2C come configurarlo con la libreria MicroLCD
 ## Crediti: https://github.com/stanleyhuangyc/MultiLCD/tree/master
 
 ## Schema
