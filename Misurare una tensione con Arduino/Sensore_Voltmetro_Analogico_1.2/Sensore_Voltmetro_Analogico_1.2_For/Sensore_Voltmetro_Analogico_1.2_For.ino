@@ -47,7 +47,7 @@ void loop() {
       Con = (dataAnalog + 0.5) * (VoltRef / (pow(2, 10) - 1));
       Volt = Con / (R2 / (R1 + R2));
       if (i != 0) {
-        VoltMedia += Volt + 0.12;
+        VoltMedia += Volt + ADJ_Error;
       }
     } else {
       i--;
