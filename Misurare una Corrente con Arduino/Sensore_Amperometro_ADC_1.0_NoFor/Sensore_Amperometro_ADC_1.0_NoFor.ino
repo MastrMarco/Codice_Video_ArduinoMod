@@ -17,7 +17,7 @@ float Con;    //Conversione in Volt del valore Analogico
 
 
 float VoltMedia = 0;  // Valore convertito in tensione Media
-float AmpMedia = 0;   // Valore Corrente Media
+float AmpMedia = 0;   // Valore Corente Media
 float VoltOUT = 0;    // Valore Tensione Media
 
 
