@@ -75,7 +75,7 @@ void loop() {
   if (millis() >= (Tempo0 + DelayVirtuale)) {
     Serial.print("Tensione RMS V ");
     Serial.print(VoltOUT, 3);
-    Serial.print("  Corrente RMS A ");
+    Serial.print("  Corente RMS A ");
     Serial.println(AmpMedia, 3);
     Tempo0 = millis();
   }

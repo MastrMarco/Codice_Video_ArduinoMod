@@ -58,7 +58,7 @@ void loop() {
     //Scrittura su seriale
     Serial.print("Tensione RMS V ");
     Serial.print(VoltMedia, 3);
-    Serial.print("  Corrente RMS A ");
+    Serial.print("  Corente RMS A ");
     Serial.println(AmpMedia, 2);
     Tempo0 = millis();
   }
