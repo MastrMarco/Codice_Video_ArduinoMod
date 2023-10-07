@@ -1,4 +1,4 @@
-# Come misurare una Corrente con Arduino !!!!
+# Come misurare una Corente con Arduino !!!!
 
 ## Schema
 
