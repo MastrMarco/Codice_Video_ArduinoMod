@@ -11,7 +11,7 @@ const byte Campionamento = 50;   // Numero di Campionamenti per fare una Media
 const float VoltRef = 1.056;     // V = 1.XXX | mV = 1XXX.00 Tensione di riferimento per i pin Analogici
 const float R_Shunt = 0.014151;  // Inserire il valore del Resistore R Shunt
 const float ADJ_Error = 0.003;   // Valore in Volt da aggiungere per diminuire l'errore di lettura
-float Con;
+float Con;                       //Conversione in Volt del valore Analogico
 
 
 //Delay Millis per la scrittura sulla seriale
@@ -58,7 +58,7 @@ void loop() {
     //Scrittura su seriale
     Serial.print("Tensione RMS V ");
     Serial.print(VoltMedia, 3);
-    Serial.print("  Corente RMS A ");
+    Serial.print("  Corrente RMS A ");
     Serial.println(AmpMedia, 2);
     Tempo0 = millis();
   }

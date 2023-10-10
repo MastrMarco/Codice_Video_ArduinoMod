@@ -17,7 +17,7 @@ float Con;    //Conversione in Volt del valore Analogico
 
 
 float VoltMedia = 0;  // Valore convertito in tensione Media
-float AmpMedia = 0;   // Valore Corente Media
+float AmpMedia = 0;   // Valore Corrente Media
 float VoltOUT = 0;    // Valore Tensione Media
 
 
@@ -75,7 +75,7 @@ void loop() {
   if (millis() >= (Tempo0 + DelayVirtuale)) {
     Serial.print("Tensione RMS V ");
     Serial.print(VoltOUT, 3);
-    Serial.print("  Corente RMS A ");
+    Serial.print("  Corrente RMS A ");
     Serial.println(AmpMedia, 3);
     Tempo0 = millis();
   }
