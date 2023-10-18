@@ -1,5 +1,5 @@
 //*****************************************************************************************************************************//
-//-------------------          By  MastrMarco    Versione 1.2        ISCRIVITI AL CANALE YOUTUBE       ------------------------//
+//-------------------          By  MastrMarco    Versione 1.2.1      ISCRIVITI AL CANALE YOUTUBE       ------------------------//
 //
 //                                  https://www.youtube.com/channel/UCpQb1Iz6M229ylkyXpdJPlw
 //*****************************************************************************************************************************//
@@ -41,7 +41,7 @@ void setup() {
   pinMode(analogPin, INPUT);
 
   Serial.println("MastrMarco");
-  Serial.print("DC VOLTMETRO 1.2v");
+  Serial.print("DC VOLTMETRO 1.2.1v");
 }
 
 
@@ -68,6 +68,10 @@ void loop() {
       VoltOUT = VoltMedia;
       VoltMedia = 0;
       CampNum = 0;
+    }
+    if ((CampNum == 0) and (dataAnalog == 0)) {
+      VoltOUT = 0;
+      VoltMedia = 0;
     }
     TempoVal = millis();
   }
