@@ -81,9 +81,9 @@ void loop() {
 
   // Delay Seriale
   if (millis() >= (Tempo0 + DelayVirtuale)) {
-    Serial.print("Volt no RMS ");
+    Serial.print("Volt no Media ");
     Serial.print(Volt, 3);
-    Serial.print("  Volt RMS ");
+    Serial.print("  Volt Media ");
     Serial.println(VoltOUT);
     Tempo0 = millis();
   }
