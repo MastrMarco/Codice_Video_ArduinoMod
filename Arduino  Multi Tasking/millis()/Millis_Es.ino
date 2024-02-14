@@ -28,7 +28,7 @@ void loop() {
     digitalWrite(ledPin1, !digitalRead(ledPin1));
   }
 
-  // Effetto fade sul secondo LED ogni secondo
+  // Effetto fade sul secondo LED ogni 30 ms
   if (currentMillis - previousMillis2 >= interval2) {
     previousMillis2 = currentMillis;
     analogWrite(ledPin2, brightness);
@@ -38,7 +38,7 @@ void loop() {
     }
   }
 
-  // Lampeggio del terzo LED ogni 500 ms
+  // Lampeggio del terzo LED ogni 250 ms
   if (currentMillis - previousMillis3 >= interval3) {
     previousMillis3 = currentMillis;
     digitalWrite(ledPin3, !digitalRead(ledPin3));

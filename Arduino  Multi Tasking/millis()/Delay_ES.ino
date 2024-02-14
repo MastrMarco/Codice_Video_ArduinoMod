@@ -15,7 +15,7 @@ void loop() {
   digitalWrite(ledPin1, LOW);
   delay(1000);
 
-  // Effetto fade sul secondo LED ogni secondo
+  // Effetto fade sul secondo LED ogni 30 ms
   for (int brightness = 0; brightness <= 255; brightness += 5) {
     analogWrite(ledPin2, brightness);
     delay(30);
@@ -25,7 +25,7 @@ void loop() {
     delay(30);
   }
 
-  // Lampeggio del terzo LED ogni 500 ms
+  // Lampeggio del terzo LED ogni 250 ms
   digitalWrite(ledPin3, HIGH);
   delay(250);
   digitalWrite(ledPin3, LOW);
